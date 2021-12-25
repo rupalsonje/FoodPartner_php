@@ -34,7 +34,7 @@ if(isset($_SESSION['CODE'],$_SESSION['MATES'],$_SESSION['TABLE_NO']))
 <?php
 
 
-  	   header("refresh:0;url=../index.php" ); //localstorage need time time to clear up the space..
+  	   header("refresh:0;url=../thankyou.php" ); //localstorage need time time to clear up the space..
   	   exit('Logout...');
 
 
